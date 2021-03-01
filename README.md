@@ -1,4 +1,6 @@
-# react-data-formatter### Install
+# react-data-formatter
+
+### Install
 
 Using NPM
 
