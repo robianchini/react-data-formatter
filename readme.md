@@ -1,16 +1,17 @@
 # react-data-formatter
 
-### Install
+Biblioteca para formatação de dados para ReactJS / ReactNative.
+### Instalação
 
-Using NPM
+Usando NPM
 
 `$ npm install react-data-formatter`
 
-Using Yarn
+Usando Yarn
 
 `$ yarn add install react-data-formatter`
 
-### Usage
+### Uso
 
 - **formatCpf**
 ------------

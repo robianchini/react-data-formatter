@@ -21,7 +21,11 @@ const formatPhone = (phone = '') => {
     }
 }
 
-const formatZipCode = zipCode => (zipCode).replace(/^([\d]{2})\.?([\d]{3})\-?([\d]{3})/)
+const formatZipCode = (zipCode) => {
+    if (!value) return ''
+    return zipCode.replace(/^([\d]{2})\.?([\d]{3})\-?([\d]{3})/)
+}
+    
 
 const formatCPF = (value) => {
     if (!value) return ''
@@ -49,7 +53,6 @@ const formatDocument = (value) => {
   
     return formatCNPJ(value)
 }
-
 
 export {
     formatPhone,
