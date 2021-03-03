@@ -21,6 +21,7 @@ const formatPhone = (phone = '') => {
     }
 }
 
+const filterNotNums = (value = '') => value?.replace(/\D/g, '') || ''
 const formatZipCode = zipCode => filterNotNums(zipCode).replace(/(\d{5})(\d{3})/, '$1-$2')
 
 const formatCPF = (value) => {

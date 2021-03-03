@@ -1,11 +1,9 @@
 {
-  "name": "react-formater",
-  "version": "1.0.0",
+  "name": "react-data-formatter",
+  "version": "1.0.2",
   "description": "react-formatter-library",
   "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Rodrigo Bianchini <rodrigo.bianchinii@gmail.com>",
+  "repository": "robianchini/react-data-formatter",
   "license": "MIT"
 }
