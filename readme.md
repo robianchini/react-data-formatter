@@ -1,4 +1,10 @@
-### Install
+### react-data-formatter
+
+A react-data-formatter é uma biblioteca para ReactJS/React Native para formatar e exibir informações.
+Formatos disponíveis: CPF, CNPJ, CPF/CNPJ, Telefone, CEP.
+
+
+### Instalação
 
 Using NPM
 
@@ -8,7 +14,7 @@ Using Yarn
 
 `$ yarn add install react-data-formatter`
 
-### Usage
+### Uso
 
 - **formatCpf**
 ------------
@@ -106,7 +112,7 @@ function Index() {
     return (
         <div>
             <p>{formatPlate('AAA1234')}</p>
-			<p>{formatPlate('AAA1A34')}</p>
+            <p>{formatPlate('AAA1A34')}</p>
         </div>
     )
 }
@@ -135,9 +141,3 @@ function Index() {
 export default Index
 ```
 Output: 99.999-999
-
-
-
-
-
-

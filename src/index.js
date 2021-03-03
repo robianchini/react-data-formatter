@@ -21,8 +21,7 @@ const formatPhone = (phone = '') => {
     }
 }
 
-const filterNotNums = (value = '') => value?.replace(/\D/g, '') || ''
-const formatZipCode = zipCode => filterNotNums(zipCode).replace(/(\d{5})(\d{3})/, '$1-$2')
+const formatZipCode = zipCode => (zipCode).replace(/^([\d]{2})\.?([\d]{3})\-?([\d]{3})/)
 
 const formatCPF = (value) => {
     if (!value) return ''
@@ -51,18 +50,6 @@ const formatDocument = (value) => {
     return formatCNPJ(value)
 }
 
-const formatCreditCard = cardNumber => {
-    if (!cardNumber || `${cardNumber}`.length !== 16) return cardNumber
-    const pieces = `${cardNumber}`.match(/.{4}/g)
-    return `${pieces[0]} XXX XXX ${pieces[pieces.length - 1]}`
-}
-
-const formatBarcode = code => {
-    if (!code) return ''
-    const regex = /(\d{5})(\d{5})(\d{5})(\d{6})(\d{5})(\d{6})(\d{1})(\d+)/g
-    return `${code}`.replace(regex, '$1.$2 $3.$4 $5.$6 $7 $8')
-}
-
 
 export {
     formatPhone,
@@ -71,6 +58,4 @@ export {
     formatCNPJ,
     formatPlate,
     formatDocument,
-    formatCreditCard,
-    formatBarcode
 }
