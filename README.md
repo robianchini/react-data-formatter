@@ -1,20 +1,32 @@
 # react-data-formatter
 
-### Install
+Biblioteca para formatação de dados para ReactJS / ReactNative.
 
-Using NPM
+## Features
+
+- [ **Formatação de CPF**](#format-cpf)
+- **Formatação de CPF**
+- **Formatação de CNPJ**
+- **Formatação de CPF ou CNPJ**
+- **Formatação de CEP**
+- **Formatação de números de telefone**
+- **Formatação de moeda brasileira**
+- **Formatação de placa de veículos**
+- **Formatação de gêneros**
+### Instalação
+
+Usando NPM
 
 `$ npm install react-data-formatter`
 
-Using Yarn
+Usando Yarn
 
-`$ yarn add install react-data-formatter`
+`$ yarn add react-data-formatter`
 
-### Usage
+### Uso
 
-- **formatCpf**
+#### [**formatCpf**](#format-cpf)
 ------------
-
 
 ```javascript
 import React from 'react'
@@ -30,9 +42,9 @@ function Index() {
 
 export default Index
 ```
-Output:   999.999.999-99
+`Output:   999.999.999-99`
 
-- **formatCnpj**
+#### **formatCnpj**
 ------------
 
 ```javascript
@@ -50,9 +62,9 @@ function Index() {
 
 export default Index
 ```
-Output:   99.999.999/9999-99
+`Output:   99.999.999/9999-99`
 
-- **formatDocument**
+#### **formatDocument**
 ------------
 
 
@@ -72,11 +84,11 @@ function Index() {
 
 export default Index
 ```
-Output:  999.999.999-99/ 99.999.999/9999-99
+`Output:  999.999.999-99 ou 99.999.999/9999-99`
 
-- **formatPhone**
+#### **formatPhone**
 ------------
-
+Formatos aceitos: telefone fixo e telefone celular
 
 ```javascript
 import React from 'react'
@@ -93,10 +105,11 @@ function Index() {
 
 export default Index
 ```
-Output:  (99) 99999-9999
+`Output:  (99) 99999-9999`
 
-- **formatPlate**
+#### **formatPlate**
 ------------
+Formatos aceitos: placas tradicionais e placas formato Mercosul
 
 
 ```javascript
@@ -115,14 +128,9 @@ function Index() {
 
 export default Index
 ```
-Output: AAA-1234, AAA1A34
+`Output: AAA-1234 ou AAA1A34`
 
-export default Index
-```
-Output: 99.999-999
+### Autor
 
-
-
-
-
-
+Rodrigo Bianchini
+[https://github.com/robianchini](https://github.com/robianchini)
