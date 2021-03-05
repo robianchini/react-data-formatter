@@ -4,7 +4,7 @@ Biblioteca para formatação de dados para ReactJS / ReactNative.
 
 ## Features
 
-- [ **Formatação de CPF**](#format-cpf)
+- [ **Formatação de CPF**](#formatcpf)
 - **Formatação de CPF**
 - **Formatação de CNPJ**
 - **Formatação de CPF ou CNPJ**
@@ -25,7 +25,7 @@ Usando Yarn
 
 ### Uso
 
-#### [**formatCpf**](#format-cpf)
+#### [**formatCpf**](#formatcpf)
 ------------
 
 ```javascript
