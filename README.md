@@ -114,7 +114,7 @@ export default Index
 #### [**formatPhone**](#formatphone)
 
 ------------
-Formatos aceitos: telefone fixo e telefone celular
+Formatos aceitos: telefones fixos ou celulares com ou serm DDI e DDD, telefones 0800, telefones 4004 e 4003
 
 ```javascript
 import React from 'react'
@@ -124,14 +124,21 @@ import { formatPhone } from 'react-data-formatter'
 function Index() {
     return (
         <div>
+            <p>{formatPhone('08009999999')}</p>
             <p>{formatPhone('99999999999')}</p>
+            <p>{formatPhone('99999999')}</p>
+            <p>{formatPhone('999999999')}</p>
+            <p>{formatPhone('40049999')}</p>
+            <p>{formatPhone('40039999')}</p>
+            <p>{formatPhone('+559999999999')}</p>
+            <p>{formatPhone('+5599999999999')}</p>
         </div>
     )
 }
 
 export default Index
 ```
-`Output:  (99) 99999-9999`
+`Output:  0800 999 9999 | 99 99999-9999 | 9999-9999 | 99999-9999 | 4004 9999 | 4003 9999 | +55 99 9999-9999 | +55 99 99999-9999`
 
 
 #### [**formatPlate**](#formatplate)
