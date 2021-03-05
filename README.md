@@ -5,14 +5,14 @@ Biblioteca para formatação de dados para ReactJS / ReactNative.
 ## Features
 
 - [ **Formatação de CPF**](#formatcpf)
-- **Formatação de CPF**
-- **Formatação de CNPJ**
-- **Formatação de CPF ou CNPJ**
-- **Formatação de CEP**
-- **Formatação de números de telefone**
-- **Formatação de moeda brasileira**
-- **Formatação de placa de veículos**
-- **Formatação de gêneros**
+- [ **Formatação de CNPJ**](#formatcnpj)
+- [ **Formatação de CPF ou CNPJ**](#formatdocument)
+- [ **Formatação de CEP**](#formatzipcode)
+- [ **Formatação de números de telefone**](#formatphone)
+- [ **Formatação de moeda brasileira**](#formatcurrency)
+- [ **Formatação de placa de veículos**](#formatplate)
+- [ **Formatação de gêneros**](#formatgender)
+
 ### Instalação
 
 Usando NPM
@@ -44,7 +44,8 @@ export default Index
 ```
 `Output:   999.999.999-99`
 
-#### **formatCnpj**
+#### [**formatCnpj**](#formatcnpj)
+
 ------------
 
 ```javascript
@@ -64,7 +65,8 @@ export default Index
 ```
 `Output:   99.999.999/9999-99`
 
-#### **formatDocument**
+#### [**formatDocument**](#formatdocument)
+
 ------------
 
 
@@ -86,7 +88,8 @@ export default Index
 ```
 `Output:  999.999.999-99 ou 99.999.999/9999-99`
 
-#### **formatPhone**
+#### [**formatPhone**](#formatphone)
+
 ------------
 Formatos aceitos: telefone fixo e telefone celular
 
@@ -107,7 +110,8 @@ export default Index
 ```
 `Output:  (99) 99999-9999`
 
-#### **formatPlate**
+#### [**formatPlate**](#formatplate)
+
 ------------
 Formatos aceitos: placas tradicionais e placas formato Mercosul
 
