@@ -1,6 +1,7 @@
 # react-data-formatter
 [![npm version](https://img.shields.io/npm/v/react-data-formatter.svg?style=flat-square)](https://www.npmjs.org/package/react-data-formatter)
-
+[![install size](https://packagephobia.now.sh/badge?p=react-data-formatter)](https://packagephobia.now.sh/result?p=react-data-formatter)
+[![npm downloads](https://img.shields.io/npm/dm/react-data-formatter.svg?style=flat-square)](http://npm-stat.com/charts.html?package=react-data-formatter)
 
 A react-data-formatter é uma biblioteca em JavaScript para formatação de dados brasileiros como CPF, CNPJ, CEP, telefone, moeda, placa e gênero.
 
