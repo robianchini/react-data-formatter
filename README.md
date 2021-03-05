@@ -88,6 +88,29 @@ export default Index
 ```
 `Output:  999.999.999-99 ou 99.999.999/9999-99`
 
+#### [**formatZipcode**](#formatzipcode)
+
+------------
+
+
+```javascript
+import React from 'react'
+import { formatZipCode } from 'react-data-formatter'
+
+
+function Index() {
+    return (
+        <div>
+            <p>{formatZipCode('9999999')}</p>
+        </div>
+    )
+}
+
+export default Index
+```
+`Output:  99.999-999`
+
+
 #### [**formatPhone**](#formatphone)
 
 ------------
@@ -109,6 +132,7 @@ function Index() {
 export default Index
 ```
 `Output:  (99) 99999-9999`
+
 
 #### [**formatPlate**](#formatplate)
 
@@ -133,6 +157,53 @@ function Index() {
 export default Index
 ```
 `Output: AAA-1234 ou AAA1A34`
+
+
+#### [**formatCurrency**](#formatcurrency)
+
+------------
+
+```javascript
+import React from 'react'
+import { formatCurrency } from 'react-data-formatter'
+
+
+function Index() {
+    return (
+        <div>
+            <p>{formatCurrency(999999.99)}</p>
+        </div>
+    )
+}
+
+export default Index
+```
+`Output: R$ 999.999,99`
+
+
+#### [**formatGender**](#formatgender)
+
+------------
+
+```javascript
+import React from 'react'
+import { formatGender } from 'react-data-formatter'
+
+
+function Index() {
+    return (
+        <div>
+            <p>{formatGender('m')}</p>
+            <p>{formatGender('f')}</p>
+            <p>{formatGender('o')}</p>
+            <p>{formatGender('')}</p>
+        </div>
+    )
+}
+
+export default Index
+```
+`Output: MASCULINO | FEMININO | OUTRO | NÃO INFORMADO`
 
 ### Autor
 
