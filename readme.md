@@ -31,7 +31,7 @@ function Index() {
 
 export default Index
 ```
-Output:   999.999.999-99
+`Output:   999.999.999-99`
 
 - **formatCnpj**
 ------------
@@ -51,7 +51,7 @@ function Index() {
 
 export default Index
 ```
-Output:   99.999.999/9999-99
+`Output:   99.999.999/9999-99`
 
 - **formatDocument**
 ------------
@@ -73,7 +73,7 @@ function Index() {
 
 export default Index
 ```
-Output:  999.999.999-99/ 99.999.999/9999-99
+`Output:  999.999.999-99 ou 99.999.999/9999-99`
 
 - **formatPhone**
 ------------
@@ -94,7 +94,7 @@ function Index() {
 
 export default Index
 ```
-Output:  (99) 99999-9999
+`Output:  (99) 99999-9999`
 
 - **formatPlate**
 ------------
@@ -116,14 +116,7 @@ function Index() {
 
 export default Index
 ```
-Output: AAA-1234, AAA1A34
+`Output: AAA-1234 ou AAA1A34`
 
 export default Index
 ```
-Output: 99.999-999
-
-
-
-
-
-
