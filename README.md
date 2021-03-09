@@ -19,7 +19,7 @@ A react-data-formatter é uma biblioteca em JavaScript para formatação de dado
 - [ **Formatação de placa de veículos**](#formatplate)
 - [ **Formatação de gêneros**](#formatgender)
 
-### Instalação
+## Instalação
 
 Usando NPM
 
@@ -29,9 +29,9 @@ Usando Yarn
 
 `$ yarn add react-data-formatter`
 
-### Uso
+## Uso
 
-#### [**formatCpf**](#formatcpf)
+### [**formatCpf**](#formatcpf)
 ------------
 
 ```javascript
@@ -50,7 +50,7 @@ export default Index
 ```
 `Output:   999.999.999-99`
 
-#### [**formatCnpj**](#formatcnpj)
+### [**formatCnpj**](#formatcnpj)
 
 ------------
 
@@ -71,7 +71,7 @@ export default Index
 ```
 `Output:   99.999.999/9999-99`
 
-#### [**formatDocument**](#formatdocument)
+### [**formatDocument**](#formatdocument)
 
 ------------
 
@@ -94,7 +94,7 @@ export default Index
 ```
 `Output:  999.999.999-99 ou 99.999.999/9999-99`
 
-#### [**formatZipcode**](#formatzipcode)
+### [**formatZipcode**](#formatzipcode)
 
 ------------
 
@@ -117,7 +117,7 @@ export default Index
 `Output:  99.999-999`
 
 
-#### [**formatPhone**](#formatphone)
+### [**formatPhone**](#formatphone)
 
 ------------
 Formatos aceitos: telefones fixos ou celulares com ou serm DDI e DDD, telefones 0800, telefones 4004 e 4003
@@ -147,7 +147,7 @@ export default Index
 `Output:  0800 999 9999 | 99 99999-9999 | 9999-9999 | 99999-9999 | 4004 9999 | 4003 9999 | +55 99 9999-9999 | +55 99 99999-9999`
 
 
-#### [**formatPlate**](#formatplate)
+### [**formatPlate**](#formatplate)
 
 ------------
 Formatos aceitos: placas tradicionais e placas formato Mercosul
@@ -172,7 +172,7 @@ export default Index
 `Output: AAA-1234 ou AAA1A34`
 
 
-#### [**formatCurrency**](#formatcurrency)
+### [**formatCurrency**](#formatcurrency)
 
 ------------
 
@@ -194,7 +194,7 @@ export default Index
 `Output: R$ 999.999,99`
 
 
-#### [**formatGender**](#formatgender)
+### [**formatGender**](#formatgender)
 
 ------------
 
@@ -218,7 +218,7 @@ export default Index
 ```
 `Output: MASCULINO | FEMININO | OUTRO | NÃO INFORMADO`
 
-### Autor
+## Autor
 
 Rodrigo Bianchini
 [https://github.com/robianchini](https://github.com/robianchini)
