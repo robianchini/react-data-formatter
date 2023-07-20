@@ -111,8 +111,6 @@ const formatGender = (value) => {
   if (value !== 'm' && value !== 'f') return 'OUTRO';
 };
 
-console.warn(formatCurrency());
-
 export {
   formatPhone,
   formatZipCode,
